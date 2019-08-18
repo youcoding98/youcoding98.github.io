@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dear diary
+title: 测试
 ---
 
-What is it with that Mary girl?  Dragging me to school every day. As if I had a choice.  What you don't hear in those nursery rhymes is that she starves me if I don't go to school with her; it's the only way I can stay alive!  I'm thinking about being adopted by Little Bo Peep, sure I may get lost, but anything is better than being with Mary and those little brats at school (shudder, shudder).
+这个玛丽女孩是什么意思？每天都把我拖到学校。好像我有一个选择。你在童谣中听不到的是，如果我不和她一起上学，她就会挨饿; 这是我能活下去的唯一方式！我正在考虑被Little Bo Peep收养，确定我可能会迷路，但任何事都比和玛丽以及那些在学校里的那些小混蛋一样好吃（不寒而栗，不寒而栗）。
