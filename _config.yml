@@ -21,8 +21,8 @@ description: Hello World!
 # List of links in the navigation bar
 navbar-links:
   Home: ""
-  Project: ""
-  Tag: "tags.html"
+  Project: "projects"
+  Tag: "tags"
   About: "aboutme"
   #Resources:
     #- Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
