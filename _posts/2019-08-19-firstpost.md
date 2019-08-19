@@ -1,7 +1,7 @@
 ---
 layout: post
-title: First post!
-subtitle: Each post also has a subtitle
+title: 越过长城，走向世界
+subtitle: Across the Great Wall we can reach every corner in the world.
 gh-repo: youcoding98/youcoding98.github.io
 gh-badge: [star, fork, follow]
 tags: [diary]
@@ -9,4 +9,4 @@ comments: true
 image: /img/hello_world.jpeg
 ---
 
-This is my first post, how exciting!
+需要coding 更需要沉淀！
