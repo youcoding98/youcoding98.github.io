@@ -2,6 +2,8 @@
 layout: post
 title: P社游戏
 subtitle: ... or not to be?
+gh-repo: youcoding98/youcoding98.github.io
+gh-badge: [star, fork, follow]
 tags: [game, diary]
 ---
 
