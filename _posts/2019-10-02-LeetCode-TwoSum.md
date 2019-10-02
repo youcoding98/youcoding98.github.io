@@ -3,7 +3,7 @@ layout: post
 title: LeetCode 1. 两数之和  
 gh-repo: youcoding98/youcoding98.github.io
 gh-badge: [star, fork, follow]
-tags: [leetcode] [alg]
+tags: [leetcode]
 ---
 
 ###  题目  
