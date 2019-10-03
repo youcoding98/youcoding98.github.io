@@ -48,4 +48,5 @@ public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
 ### 补充知识
 三元运算符  
-C=A>B ? 100 :200; 这条语句的意思是，如果A>B的话，就将100赋给C，否则就将200赋给C；
+C=A>B ? 100 :200; 这条语句的意思是，如果A>B的话，就将100赋给C，否则就将200赋给C；  
+![Crepe](https://github.com/youcoding98/youcoding98.github.io/blob/master/img/dummy%20head.png){: .center-block :}
