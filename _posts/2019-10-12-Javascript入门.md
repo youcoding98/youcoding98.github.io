@@ -13,7 +13,11 @@ tags: [leetcode]
 ##### 1.基本语法
 (1)与html结合方式   
 
+#### BOM
 
+#### DOM
+控制html文档的内容
+获取页面标签（元素）对象
 
 
 ```javascript
