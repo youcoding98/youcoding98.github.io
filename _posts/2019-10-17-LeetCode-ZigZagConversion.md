@@ -11,7 +11,7 @@ tags: [leetcode]
 ####  1. 题解之暴力法：
 
 ####  1.解题思路
-
+寻找蕴含的数字规律
 
 ```java
 
@@ -64,8 +64,8 @@ public static String convert(String s, int numRows)
     }
 ```
 
-####  2. 
-
+####  2. 题解之按行访问
+看的一头雾水，先mark
 ####  2.解题思路
 
 ```java
