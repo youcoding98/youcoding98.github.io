@@ -101,14 +101,6 @@ var foo = function(x) {
 foo(3)
 ~~~
 相同代码带有行号  
-```
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-```
 {% highlight javascript linenos %}
 var foo = function(x) {
   return(x + 5);
@@ -144,7 +136,7 @@ foo(3)
 
 ![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .center-block :}
 
-11.**Boxes**
+11.**Boxes**  
 You can add notification, warning and error boxes like this:
 ```
 {: .box-note}
