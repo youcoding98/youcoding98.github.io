@@ -11,24 +11,24 @@ tags: [Java,Algorithm]
 
 ## 一、堆 
 堆是具有以下性质的完全二叉树：每个结点的值都大于或等于其左右孩子结点的值，称为大顶堆；或者每个结点的值都小于或等于其左右孩子结点的值，称为小顶堆。
-![Heap](https://github.com/youcoding98/youcoding98.github.io/blob/master/img/heap.png){: .center-block :}
+[![svFGm6.png](https://s3.ax1x.com/2021/01/26/svFGm6.png)](https://imgchr.com/i/svFGm6){: .center-block :}
 同时，我们对堆中的结点按层进行编号，将大根堆映射到数组中就是下面这个样子
-![HeapArray](https://github.com/youcoding98/youcoding98.github.io/blob/master/img/heapArray.png){: .center-block :}
+[![svFh1s.png](https://s3.ax1x.com/2021/01/26/svFh1s.png)](https://imgchr.com/i/svFh1s){: .center-block :}
 
 ## 二、 堆排序基本思想
 *堆排序的基本思想是：将待排序序列构造成一个大顶堆，此时，整个序列的最大值就是堆顶的根节点。将其与末尾元素进行交换，此时末尾就为最大值。然后将剩余n-1个元素重新构造成一个堆，这样会得到n个元素的次小值。如此反复执行，便能得到一个有序序列了*
 
 1. 构造初始堆。将给定无序序列构造成一个大顶堆
    + 我们从最后一个非叶子结点`i = arr.length / 2 - 1`开始，从左到右，从上到下进行调整
-   ![HeapSort1](https://github.com/youcoding98/youcoding98.github.io/blob/master/img/heapSort1.png){: .center-block :}
-   ![HeapSort2](https://github.com/youcoding98/youcoding98.github.io/blob/master/img/heapSort2.png){: .center-block :}
-   ![HeapSort3](https://github.com/youcoding98/youcoding98.github.io/blob/master/img/heapSort3.png){: .center-block :}
+   [![svF5Xq.png](https://s3.ax1x.com/2021/01/26/svF5Xq.png)](https://imgchr.com/i/svF5Xq){: .center-block :}
+   [![svFbAU.png](https://s3.ax1x.com/2021/01/26/svFbAU.png)](https://imgchr.com/i/svFbAU){: .center-block :}
+   [![svFvcR.png](https://s3.ax1x.com/2021/01/26/svFvcR.png)](https://imgchr.com/i/svFvcR){: .center-block :}
 
 2. 将堆顶元素与末尾元素进行交换，使末尾元素最大。然后继续利用堆调整算法，对前 n-1 个数进行堆调整，再将堆顶元素与末尾元素交换，得到第二大元素。如此反复进行交换、重建、交换。
    + 将堆顶元素9和末尾元素4进行交换
-   ![HeapSort4](https://github.com/youcoding98/youcoding98.github.io/blob/master/img/heapSort4.png){: .center-block :}
+   [![svkiND.png](https://s3.ax1x.com/2021/01/26/svkiND.png)](https://imgchr.com/i/svkiND){: .center-block :}
    + 重新调整堆结构，使其继续满足堆定义
-   ![HeapSort5](https://github.com/youcoding98/youcoding98.github.io/blob/master/img/heapSort5.png){: .center-block :}
+   [![svkVgA.png](https://s3.ax1x.com/2021/01/26/svkVgA.png)](https://imgchr.com/i/svkVgA){: .center-block :}
 
 ## 三、参考代码：
      
