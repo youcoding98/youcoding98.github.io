@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 算法之排序总结
+title: 【算法分类总结】排序
 gh-repo: youcoding98/youcoding98.github.io
 gh-badge: [star, fork, follow]
 tags: [Java,Algorithm]

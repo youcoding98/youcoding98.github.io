@@ -1,7 +1,6 @@
 ---
 layout: post
-title: 二分查找总结
-subtitle: 转载自[liweiwei1419](https://leetcode-cn.com/u/liweiwei1419/)
+title: 【算法分类总结】二分查找
 gh-repo: youcoding98/youcoding98.github.io
 gh-badge: [star, fork, follow]
 tags: [Java,Algorithm]
@@ -471,4 +470,5 @@ public class Solution {
 | [658. 找到 K 个最接近的元素](https://leetcode-cn.com/problems/find-k-closest-elements/) |                                      |
 | [1300. 转变数组后最接近目标值的数组和](https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target/) ||
 
-（本文完）
+## 参考资料
+1. [liweiwei1419](https://leetcode-cn.com/u/liweiwei1419/)
