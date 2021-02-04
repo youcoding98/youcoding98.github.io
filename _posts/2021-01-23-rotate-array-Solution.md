@@ -73,7 +73,7 @@ class Solution {
 
 ### 思路三：三次翻转 
 先反转全部数组，然后反转前k个，最后反转剩余的，如下所示  
-[![yFUWxP.png](https://s3.ax1x.com/2021/01/30/yFUWxP.png)](https://imgchr.com/i/yFUWxP)
+[![yFUWxP.png](https://s3.ax1x.com/2021/01/30/yFUWxP.png)](https://imgchr.com/i/yFUWxP)  
 时间复杂度`O(N)`,空间复杂度`O(1)`  
 **参考代码：**    
 ```java
