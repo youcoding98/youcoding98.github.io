@@ -28,8 +28,10 @@ tags: [Java,Algorithm]
    + 将堆顶元素9和末尾元素4进行交换
    [![svkiND.png](https://s3.ax1x.com/2021/01/26/svkiND.png)](https://imgchr.com/i/svkiND){: .center-block :}
    + 重新调整堆结构，使其继续满足堆定义
-   [![svkVgA.png](https://s3.ax1x.com/2021/01/26/svkVgA.png)](https://imgchr.com/i/svkVgA){: .center-block :}
+   [![svkVgA.png](https://s3.ax1x.com/2021/01/26/svkVgA.png)](https://imgchr.com/i/svkVgA){: .center-block :}  
 
+**堆排序时间复杂度计算：对于维护K个元素的最小堆，建堆(费时`O(K)`),并调整堆(费时(`O(logK)`)),之后每遍历一个元素x，则与堆顶元素比较，若`x > kmin`
+则更新堆(费时(`O(logK)`))，否则不更新堆。因此，堆排序的总费时为`O(K * logK + (n - k) * logK) = O(nlogK)`**
 ## 三、参考代码：
      
 ```
