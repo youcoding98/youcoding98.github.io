@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【我要进大厂】浅谈红黑树
+title: 浅谈红黑树
 gh-repo: youcoding98/youcoding98.github.io
 gh-badge: [star, fork, follow]
 tags: [Java,Algorithm]
